@@ -1,24 +1,19 @@
+"use client";
 
-'use client'
-
-
-import React from 'react';
-import Wrapper from '@/layouts/Wrapper';
-import HeaderOne from '@/layouts/headers/HeaderOne';
-import HeroHomeFour from '@/components/hero/HeroHomeFour';
-import ServiceHomeFour from '@/components/service/ServiceHomeFour';
-import PortfolioHomeFour from '@/components/portfolio/PortfolioHomeFour';
-import Testimonial from '@/components/testimonial/Testimonial';
-import BlogHomeOne from '@/components/blog/BlogHomeOne';
-import AboutHomeFour from '@/components/about/AboutHomeFour';
-import FooterOne from '@/layouts/footers/FooterOne';
-
-
+import React from "react";
+import Wrapper from "@/layouts/Wrapper";
+import HeaderOne from "@/layouts/headers/HeaderOne";
+import HeroHomeFour from "@/components/hero/HeroHomeFour";
+import ServiceHomeFour from "@/components/service/ServiceHomeFour";
+import PortfolioHomeFour from "@/components/portfolio/PortfolioHomeFour";
+import Testimonial from "@/components/testimonial/Testimonial";
+import BlogHomeOne from "@/components/blog/BlogHomeOne";
+import AboutHomeFour from "@/components/about/AboutHomeFour";
+import FooterOne from "@/layouts/footers/FooterOne";
 
 // export const metadata = {
-//   title: "Creative Protfolio Vixan - Digital  Creative Agency Next js Template",
+//   title: "Creative Protfolio Wisemind - Digital  Creative Agency Next js Template",
 // };
-
 
 const index = () => {
   return (
