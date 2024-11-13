@@ -25,7 +25,7 @@ const menu_data: DataType[] = [
     id: 1,
     title: "Home",
     link: "/",
-    has_dropdown: true,
+    has_dropdown: false,
     sub_menu: [
       {
         id: 1,
@@ -56,53 +56,53 @@ const menu_data: DataType[] = [
   },
   {
     id: 2,
-    title: "About",
+    title: "About Us",
     link: "/about",
     has_dropdown: false,
   },
-  {
-    id: 3,
-    title: "Pages",
-    link: "/about",
-    has_dropdown: true,
-    sub_menu: [
-      {
-        id: 1,
-        title: "About",
-        link: "/about",
-      },
-      {
-        id: 2,
-        title: "Team",
-        link: "/team",
-      },
-      {
-        id: 3,
-        title: "Team Details",
-        link: "/team-details",
-      },
-      {
-        id: 4,
-        title: "Contact",
-        link: "/contact",
-      },
-      {
-        id: 5,
-        title: "Faq",
-        link: "/faq",
-      },
-      {
-        id: 6,
-        title: "Error",
-        link: "/error",
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: "Pages",
+  //   link: "/about",
+  //   has_dropdown: true,
+  //   sub_menu: [
+  //     {
+  //       id: 1,
+  //       title: "About",
+  //       link: "/about",
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "Team",
+  //       link: "/team",
+  //     },
+  //     {
+  //       id: 3,
+  //       title: "Team Details",
+  //       link: "/team-details",
+  //     },
+  //     {
+  //       id: 4,
+  //       title: "Contact",
+  //       link: "/contact",
+  //     },
+  //     {
+  //       id: 5,
+  //       title: "Faq",
+  //       link: "/faq",
+  //     },
+  //     {
+  //       id: 6,
+  //       title: "Error",
+  //       link: "/error",
+  //     },
+  //   ],
+  // },
   {
     id: 4,
     title: "Services",
     link: "/service",
-    has_dropdown: true,
+    has_dropdown: false,
     sub_menu: [
       {
         id: 1,
@@ -116,42 +116,42 @@ const menu_data: DataType[] = [
       },
     ],
   },
-  {
-    id: 5,
-    title: "Portfolio",
-    link: "/portfolio",
-    has_dropdown: true,
-    sub_menu: [
-      {
-        id: 1,
-        title: "Portfolio",
-        link: "/portfolio",
-      },
-      {
-        id: 2,
-        title: "Portfolio Details",
-        link: "/portfolio-details",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Blog",
-    link: "/blog",
-    has_dropdown: true,
-    sub_menu: [
-      {
-        id: 1,
-        title: "Blog",
-        link: "/blog",
-      },
-      {
-        id: 2,
-        title: "Blog Details",
-        link: "/blog-details",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: "Portfolio",
+  //   link: "/portfolio",
+  //   has_dropdown: true,
+  //   sub_menu: [
+  //     {
+  //       id: 1,
+  //       title: "Portfolio",
+  //       link: "/portfolio",
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "Portfolio Details",
+  //       link: "/portfolio-details",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Blog",
+  //   link: "/blog",
+  //   has_dropdown: true,
+  //   sub_menu: [
+  //     {
+  //       id: 1,
+  //       title: "Blog",
+  //       link: "/blog",
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "Blog Details",
+  //       link: "/blog-details",
+  //     },
+  //   ],
+  // },
   {
     id: 7,
     title: "Contact",
@@ -336,13 +336,13 @@ const HeaderOne = () => {
                       ></path>
                     </svg>
                     <span className="ms-2">
-                      46 JOHN ST TORONTO ON <br />
-                      &nbsp; &nbsp; &nbsp; &nbsp; M5V 3W2
+                      Tex asia Co., 4th floor, house 79, Road 7, sector 4 <br />
+                      &nbsp; &nbsp; &nbsp; Uttara
                     </span>
                   </p>
 
                   <h4 className="cs_phone_number">
-                    <a href="tel:(406)555-0120">
+                    <a href="tel:+8801624452103">
                       <svg
                         width="35"
                         height="35"
@@ -363,18 +363,24 @@ const HeaderOne = () => {
                           fill="white"
                         ></path>
                       </svg>
-                      <span className="ms-2">(406)555-0120</span>
+                      <span className="ms-2">+8801624452103</span>
                     </a>
                   </h4>
 
                   <ul className="cs_social_link">
                     <li>
-                      <a target="_blank" href="https://www.facebook.com/">
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/wisemindit"
+                      >
                         Facebook
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" href="https://www.linkedin.com/">
+                      <a
+                        target="_blank"
+                        href="http://www.linkedin.com/in/wise-mind-7535b3338"
+                      >
                         Linkedin
                       </a>
                     </li>
@@ -384,8 +390,8 @@ const HeaderOne = () => {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" href="https://dribbble.com/">
-                        Dribbble
+                      <a target="_blank" href="https://behance.net/wisemindit">
+                        Behance
                       </a>
                     </li>
                   </ul>
@@ -393,10 +399,11 @@ const HeaderOne = () => {
                   <hr className="mt-2 me-5 mb-2" />
                   <h2>
                     <a
-                      href="mailto:info@email.com"
+                      href="info@wisemindit.com"
                       className="cs_primary_font cs_text_btn"
+                      style={{ fontSize: "42px" }}
                     >
-                      <span className="cs_black">info@email.com</span>
+                      <span className="cs_black">info@wisemindit.com</span>
                     </a>
                   </h2>
                 </div>

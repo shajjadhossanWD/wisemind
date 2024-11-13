@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 // hero social links home three
 interface HDataType {
   id: number;
@@ -10,12 +9,12 @@ interface HDataType {
 const hero_link_home_three: HDataType[] = [
   {
     id: 1,
-    link: "https://www.facebook.com",
+    link: "https://www.facebook.com/wisemindit",
     title: "Facebook",
   },
   {
     id: 2,
-    link: "https://www.linkedin.com",
+    link: "http://www.linkedin.com/in/wise-mind-7535b3338",
     title: "Linkedin",
   },
   {
@@ -30,10 +29,10 @@ const hero_link_home_three: HDataType[] = [
   },
   {
     id: 4,
-    link: "https://www.dribbble.com",
-    title: "Dribbble",
-  }
-]
+    link: "https://behance.net/wisemindit",
+    title: "Behance",
+  },
+];
 export const SocialLinks = () => {
   return (
     <>
@@ -42,32 +41,25 @@ export const SocialLinks = () => {
           key={h_index}
           href={h_item.link}
           className="cs_center"
-          target="_blank">
+          target="_blank"
+        >
           {h_item.title}
         </Link>
       ))}
     </>
-  )
+  );
+};
 
-}
-
-
-// copy right text 
+// copy right text
 type copy_right_text_type = {
   copy_right: JSX.Element;
-}
+};
 
 const copy_right_text: copy_right_text_type = {
-  copy_right: <>
-    Copyright {new Date().getFullYear()}, All Right reserved
-  </>
-}
+  copy_right: <>Copyright {new Date().getFullYear()}, All Right reserved</>,
+};
 
-const { copy_right } = copy_right_text
+const { copy_right } = copy_right_text;
 export const CopyRight = () => {
-  return (
-    <> {copy_right}</>
-  )
-}
-
-
+  return <> {copy_right}</>;
+};

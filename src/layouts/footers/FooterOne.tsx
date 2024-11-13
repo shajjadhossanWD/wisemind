@@ -16,16 +16,16 @@ interface DataType {
 }
 
 const footer_data: DataType = {
-  email: `info@email.com`,
-  phone: `(406) 555-0120`,
-  location: `46 JOHN ST TORONTO ON M5V 3W2`,
+  email: `info@wisemindit.com`,
+  phone: `+8801624452103`,
+  location: `Tex asia Co., 4th floor, house 79, Road 7, sector 4, Uttara.`,
   footer_info: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development.`,
   links: [
     { title: `HOME`, link: "/" },
     { title: `ABOUT`, link: "/about" },
     { title: `SERVICES`, link: "/service" },
-    { title: `PORTFOLIO`, link: "/portfolio" },
-    { title: `BLOG`, link: "/blog" },
+    // { title: `PORTFOLIO`, link: "/portfolio" },
+    // { title: `BLOG`, link: "/blog" },
     { title: `CONTACT US`, link: "/contact" },
   ],
 };
