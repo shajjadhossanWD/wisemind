@@ -19,7 +19,7 @@ import FooterOne from "@/layouts/footers/FooterOne";
 import VideoPopup from "@/components/modals/VideoPopup";
 
 // export const metadata = {
-//   title: "Marketing Agency Wisemind - Digital  Creative Agency Next js Template",
+//   title: "Marketing Wisemind Wisemind - Digital  Creative Wisemind Next js Template",
 // };
 
 const index = () => {

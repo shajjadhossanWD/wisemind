@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "@/assets/img/logo.svg";
+import logo from "@/assets/logos/logo_b.png";
 
 const BannerAbout = () => {
   return (
@@ -11,7 +11,7 @@ const BannerAbout = () => {
           <div className="cs_section_heading cs_style_1 cs_type_1">
             <div className="cs_section_heading_text">
               <h2 className="cs_section_title anim_text_writting">
-                How Our Agency is Transforming <br /> Businesses and Brands
+                How Our Company is Transforming <br /> Businesses and Brands
                 through <br /> Online Solutions
               </h2>
             </div>
@@ -33,8 +33,7 @@ const BannerAbout = () => {
                           href="#textPath"
                           startOffset="0%"
                         >
-                          Wisemind Digital Agency . Wisemind Digital Agency .
-                          &nbsp;
+                          Wisemind Company . Wisemind Company . &nbsp;
                         </textPath>
                       </text>
                     </g>

@@ -16,7 +16,7 @@ import HeaderOne from "@/layouts/headers/HeaderOne";
 import VideoPopup from "@/components/modals/VideoPopup";
 
 // export const metadata = {
-//   title: "About Wisemind - Digital  Creative Agency Next js Template",
+//   title: "About Wisemind - Digital  Creative Wisemind Next js Template",
 // };
 
 const index = () => {
@@ -33,7 +33,7 @@ const index = () => {
             <FunFactHomeOne style_3={true} />
             <About />
             <TeamHomeTwo style_2={true} style_3={true} />
-            <AwardsHomeOne style_2={true} />
+            {/* <AwardsHomeOne style_2={true} />  */}
             <Testimonial />
             <Gellary style_2={true} />
             <BrandHomeOne />

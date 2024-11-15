@@ -13,21 +13,21 @@ interface DataType {
 const hero_slider: DataType[] = [
   {
     img: `/assets/img/hero_img_1.jpg`,
-    sub_title: "Creative Agency",
-    title: "Expert Digital Services for Your Own Business",
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`,
+    sub_title: "Software Development & Solutions Company",
+    title: "Expert Digital & Creative Services for Your Business",
+    des: `Welcome to our versatile solutions company! We specialize in empowering businesses to thrive in the digital age. From cutting-edge software development and cloud solutions to captivating 2D/3D animations, UI/UX design, video editing, and graphics, we offer a wide range of services tailored to your unique needs. Let us help you innovate, design, and excel in today’s ever-evolving digital landscape.`,
   },
   {
     img: `/assets/img/hero_img_1.jpg`,
-    sub_title: "Creative Agency",
-    title: "Expert Digital Services for Your Own Business",
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`,
+    sub_title: "Software Development & Solutions Company",
+    title: "Expert Digital & Creative Services for Your Business",
+    des: `Welcome to our versatile solutions company! We specialize in empowering businesses to thrive in the digital age. From cutting-edge software development and cloud solutions to captivating 2D/3D animations, UI/UX design, video editing, and graphics, we offer a wide range of services tailored to your unique needs. Let us help you innovate, design, and excel in today’s ever-evolving digital landscape.`,
   },
   {
     img: `/assets/img/hero_img_1.jpg`,
-    sub_title: "Creative Agency",
-    title: "Expert Digital Services for Your Own Business",
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`,
+    sub_title: "Software Development & Solutions Company",
+    title: "Expert Digital & Creative Services for Your Business",
+    des: `Welcome to our versatile solutions company! We specialize in empowering businesses to thrive in the digital age. From cutting-edge software development and cloud solutions to captivating 2D/3D animations, UI/UX design, video editing, and graphics, we offer a wide range of services tailored to your unique needs. Let us help you innovate, design, and excel in today’s ever-evolving digital landscape.`,
   },
 ];
 

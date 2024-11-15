@@ -19,7 +19,7 @@ import Wrapper from "@/layouts/Wrapper";
 import VideoPopup from "@/components/modals/VideoPopup";
 
 // export const metadata = {
-//   title: "Wisemind - Digital  Creative Agency Next js Template",
+//   title: "Wisemind - Digital  Creative Wisemind Next js Template",
 // };
 
 const index = () => {
@@ -36,11 +36,11 @@ const index = () => {
             <AboutHomeOne />
             <ServiceHomeOne />
             <PortfolioHomeOne />
-            <AwardsHomeOne />
+            {/* <AwardsHomeOne />  */}
             <Testimonial />
             <FunFactHomeOne />
             <VideoHomeOne setIsVideoOpen={setIsVideoOpen} />
-            <BlogHomeOne />
+            {/* <BlogHomeOne />  */}
             <SubscribeHomeOne />
             <BrandHomeOne style_2={false} />
           </main>

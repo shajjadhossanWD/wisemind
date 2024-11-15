@@ -29,12 +29,12 @@ const menu_data: DataType[] = [
     sub_menu: [
       {
         id: 1,
-        title: "Digital Agency",
+        title: "Wisemind",
         link: "/",
       },
       {
         id: 2,
-        title: "Startup Agency",
+        title: "Startup Wisemind",
         link: "/startup-agency",
       },
       {
@@ -49,7 +49,7 @@ const menu_data: DataType[] = [
       },
       {
         id: 5,
-        title: "Marketing Agency",
+        title: "Marketing Wisemind",
         link: "/marketing-agency",
       },
     ],
@@ -336,7 +336,7 @@ const HeaderOne = () => {
                       ></path>
                     </svg>
                     <span className="ms-2">
-                      Tex asia Co., 4th floor, house 79, Road 7, sector 4 <br />
+                      4th floor, house 79, Road 7, sector 4 <br />
                       &nbsp; &nbsp; &nbsp; Uttara
                     </span>
                   </p>
@@ -401,7 +401,7 @@ const HeaderOne = () => {
                     <a
                       href="info@wisemindit.com"
                       className="cs_primary_font cs_text_btn"
-                      style={{ fontSize: "42px" }}
+                      style={{ fontSize: "38px" }}
                     >
                       <span className="cs_black">info@wisemindit.com</span>
                     </a>

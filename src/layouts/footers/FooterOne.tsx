@@ -18,8 +18,8 @@ interface DataType {
 const footer_data: DataType = {
   email: `info@wisemindit.com`,
   phone: `+8801624452103`,
-  location: `Tex asia Co., 4th floor, house 79, Road 7, sector 4, Uttara.`,
-  footer_info: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development.`,
+  location: `4th floor, house 79, Road 7, sector 4, Uttara.`,
+  footer_info: `Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development.`,
   links: [
     { title: `HOME`, link: "/" },
     { title: `ABOUT`, link: "/about" },
@@ -45,6 +45,7 @@ const FooterOne = () => {
                 <a
                   href={`mailto:${email}`}
                   className="cs_primary_font anim_text_upanddowns"
+                  style={{ fontSize: "45px" }}
                 >
                   <span>{email}</span>
                 </a>

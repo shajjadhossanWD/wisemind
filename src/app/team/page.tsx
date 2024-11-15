@@ -7,7 +7,7 @@ import HeaderOne from "@/layouts/headers/HeaderOne";
 import AboutHomeFour from "@/components/about/AboutHomeFour";
 
 // export const metadata = {
-//   title: "Team Wisemind - Digital  Creative Agency Next js Template",
+//   title: "Team Wisemind - Digital  Creative Wisemind Next js Template",
 // };
 
 const index = () => {

@@ -19,19 +19,19 @@ const testimonial_data: DataType[] = [
     img: avatar_img,
     name: `Delores Olivo`,
     location: `From UK`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    des: `“Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
   },
   {
     img: avatar_img,
     name: `Delores Olivo`,
     location: `From USA`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    des: `“Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
   },
   {
     img: avatar_img,
     name: `Delores Olivo`,
     location: `From Astrolia`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    des: `“Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
   },
 ];
 

@@ -24,12 +24,12 @@ const menu_data: DataType[] = [
     sub_menu: [
       {
         id: 1,
-        title: "Digital Agency",
+        title: "Wisemind",
         link: "/",
       },
       {
         id: 2,
-        title: "Startup Agency",
+        title: "Startup Wisemind",
         link: "/startup-agency",
       },
       {
@@ -44,7 +44,7 @@ const menu_data: DataType[] = [
       },
       {
         id: 5,
-        title: "Marketing Agency",
+        title: "Marketing Wisemind",
         link: "/marketing-agency",
       },
     ],

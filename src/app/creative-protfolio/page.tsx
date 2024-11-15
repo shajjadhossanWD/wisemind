@@ -12,7 +12,7 @@ import AboutHomeFour from "@/components/about/AboutHomeFour";
 import FooterOne from "@/layouts/footers/FooterOne";
 
 // export const metadata = {
-//   title: "Creative Protfolio Wisemind - Digital  Creative Agency Next js Template",
+//   title: "Creative Protfolio Wisemind - Digital  Creative Wisemind Next js Template",
 // };
 
 const index = () => {

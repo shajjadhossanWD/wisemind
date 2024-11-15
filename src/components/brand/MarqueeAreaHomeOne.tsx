@@ -7,10 +7,10 @@ const MarqueeAreaHomeOne = () => {
       <div className="cs_moving_section_wrap cs_bold">
         <div className="cs_moving_section_in">
           <div className="cs_moving_section cs_stroke_text">
-            More Creativity Power With Wisemind Agency
+            More Creativity Power With Wisemind
           </div>
           <div className="cs_moving_section cs_stroke_text">
-            More Creativity Power With Wisemind Agency
+            More Creativity Power With Wisemind
           </div>
         </div>
       </div>

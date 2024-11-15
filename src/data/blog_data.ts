@@ -1,9 +1,7 @@
-
 import blog_img_1 from "@/assets/img/post_1.jpg";
 import blog_img_2 from "@/assets/img/post_2.jpg";
-import blog_img_3 from "@/assets/img/post_3.jpg"; 
+import blog_img_3 from "@/assets/img/post_3.jpg";
 import { StaticImageData } from "next/image";
-
 
 interface DataType {
   id: number;
@@ -12,18 +10,17 @@ interface DataType {
   des: string;
 }
 
-
 const blog_data: DataType[] = [
   {
     id: 1,
     img: blog_img_1,
-    title: `Reasons Business Needs a Agency`,
+    title: `Reasons Business Needs a Wisemind`,
     des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
   },
   {
     id: 2,
     img: blog_img_2,
-    title: `How a Creative Agency Can Help?`,
+    title: `How a Creative Wisemind Can Help?`,
     des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
   },
   {
@@ -35,13 +32,13 @@ const blog_data: DataType[] = [
   {
     id: 4,
     img: blog_img_1,
-    title: `Reasons Business Needs a Agency`,
+    title: `Reasons Business Needs a Wisemind`,
     des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
   },
   {
     id: 5,
     img: blog_img_2,
-    title: `How a Creative Agency Can Help?`,
+    title: `How a Creative Wisemind Can Help?`,
     des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
   },
   {
@@ -50,6 +47,6 @@ const blog_data: DataType[] = [
     title: `Maximizing Your Marketing Budget`,
     des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
   },
-]
+];
 
-export default blog_data
+export default blog_data;

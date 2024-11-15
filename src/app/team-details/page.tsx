@@ -8,7 +8,7 @@ import AboutHomeFour from "@/components/about/AboutHomeFour";
 import TeamDetailsArea from "@/components/details/TeamDetailsArea";
 
 // export const metadata = {
-//   title: "Team Details Wisemind - Digital  Creative Agency Next js Template",
+//   title: "Team Details Wisemind - Digital  Creative Wisemind Next js Template",
 // };
 
 const index = () => {

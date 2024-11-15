@@ -7,7 +7,7 @@ import HeaderOne from "@/layouts/headers/HeaderOne";
 import React from "react";
 
 // export const metadata = {
-//   title: "Faq Wisemind - Digital  Creative Agency Next js Template",
+//   title: "Faq Wisemind - Digital  Creative Wisemind Next js Template",
 // };
 
 const index = () => {

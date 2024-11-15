@@ -1,12 +1,9 @@
- 
-
-import React from 'react';
-import agency_story_1 from "@/assets/img/agency_story_1.jpg"
-import agency_story_2 from "@/assets/img/agency_story_2.jpg"
-import agency_story_4 from "@/assets/img/agency_story_4.jpg"
-import agency_story_3 from "@/assets/img/agency_story_3.jpg"
-import Image from 'next/image';
-
+import React from "react";
+import agency_story_1 from "@/assets/img/agency_story_1.jpg";
+import agency_story_2 from "@/assets/img/agency_story_2.jpg";
+import agency_story_4 from "@/assets/img/agency_story_4.jpg";
+import agency_story_3 from "@/assets/img/agency_story_3.jpg";
+import Image from "next/image";
 
 interface DataType {
   subtitle: string;
@@ -14,11 +11,11 @@ interface DataType {
   des: string;
 }
 const about_content: DataType = {
-  subtitle: `Our Agency Story`,
-  title: `How Our Agency is Pushing the Boundaries of Online Marketing and Design`,
-  des: `Digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital to drive growth and reach your goals.`,
-}
-const { subtitle, title, des } = about_content
+  subtitle: `Our Company Story`,
+  title: `How Our Company is Pushing the Boundaries of Online Marketing and Design`,
+  des: `Wisemind! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital to drive growth and reach your goals.`,
+};
+const { subtitle, title, des } = about_content;
 
 const About = () => {
   return (
@@ -53,12 +50,8 @@ const About = () => {
                 </div>
                 <div className="col-md-6 col-sm-12">
                   <div className="anim_div_ShowRightSide">
-                    <p className="cs_ternary_color">
-                      {des}
-                    </p>
-                    <p className="cs_ternary_color">
-                      {des}
-                    </p>
+                    <p className="cs_ternary_color">{des}</p>
+                    <p className="cs_ternary_color">{des}</p>
                   </div>
                 </div>
               </div>
@@ -77,7 +70,11 @@ const About = () => {
             <div className="cs_img_section_3">
               <div className="text-end">
                 <Image src={agency_story_4} alt="image-here" />
-                <Image src={agency_story_3} className="w-100" alt="image-here" />
+                <Image
+                  src={agency_story_3}
+                  className="w-100"
+                  alt="image-here"
+                />
               </div>
             </div>
           </div>

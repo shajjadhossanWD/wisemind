@@ -1,13 +1,12 @@
-
-import React from 'react';
-import Image from 'next/image';
-import hero_img from '@/assets/img/creative_banner_img.jpg';
+import React from "react";
+import Image from "next/image";
+import hero_img from "@/assets/img/creative_banner_img.jpg";
 
 const hero_data = {
   title_1: "Creative",
   title_2: "Portfolio",
-  des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and developmen.`
-}
+  des: `Welcome to wisemind.! We specialize in helping businesses like yours succeed online. From website design and developmen.`,
+};
 const { title_1, title_2, des } = hero_data;
 
 const HeroHomeFour = () => {
@@ -16,7 +15,11 @@ const HeroHomeFour = () => {
       <section>
         <div className="cs_hero cs_style3 cs_bg_color">
           <div className="cs_banner_img">
-            <Image src={hero_img} className="h-100 w-100" alt="creative_banner_img" />
+            <Image
+              src={hero_img}
+              className="h-100 w-100"
+              alt="creative_banner_img"
+            />
           </div>
           <div className="container">
             <div className="cs_hero_text">

@@ -27,24 +27,24 @@ interface DataType {
 }
 
 const blog_details_content: DataType = {
-  title: `How a Creative Agency Can Help Your Business Development?`,
+  title: `How a Creative Wisemind Can Help Your Business Development?`,
   info: [
     { title: `Posted By`, des: `Andrew Nikulas` },
     { title: `Published Date`, des: `02 - Dec - 2023` },
     { title: `Viewes`, des: `2 Min Read` },
   ],
-  title_2: `How a Creative Agency Can Help?`,
-  des_1: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and adver tising, we have the tools and expertise to elevate your online presence. Welcome to our digital agency! We specialize in helping businesses like yours online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Welcome to our digital agency! We specialize in helping businesses like yours succeed online.`,
+  title_2: `How a Creative Wisemind Can Help?`,
+  des_1: `Welcome to wisemind.! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and adver tising, we have the tools and expertise to elevate your online presence. Welcome to wisemind.! We specialize in helping businesses like yours online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Welcome to wisemind.! We specialize in helping businesses like yours succeed online.`,
   features: [
-    `Design Welcome to our digital agency!`,
+    `Design Welcome to wisemind.!`,
     `Dev online. From website design Implementation world of digital.`,
-    `Implementation evolving world of digital Design Welcome to our digital agency!`,
+    `Implementation evolving world of digital Design Welcome to wisemind.!`,
     `Launch growth and reach your goals. Implementation evolving world of digital.`,
   ],
-  des_2: `We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and adver tising, we have the tools and expertise to elevate your online presence. Welcome to our digital agency! We specialize in helping businesses like yours online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence.`,
-  qute: `“Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and adver tising, we have the to ols and expertise to elevate your online presence. Welcome to our digital agency Welcome to our digital agency”`,
+  des_2: `We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and adver tising, we have the tools and expertise to elevate your online presence. Welcome to wisemind.! We specialize in helping businesses like yours online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence.`,
+  qute: `“Welcome to wisemind.! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and adver tising, we have the to ols and expertise to elevate your online presence. Welcome to wisemind. Welcome to wisemind.”`,
   writer: `Andrew Jackson`,
-  des_3: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and adver tising, we have the tools and expertise to elevate your online presence.`,
+  des_3: `Welcome to wisemind.! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and adver tising, we have the tools and expertise to elevate your online presence.`,
 };
 
 const { title, info, title_2, des_1, features, des_2, qute, writer, des_3 } =
