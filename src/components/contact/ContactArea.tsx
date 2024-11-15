@@ -115,7 +115,7 @@ const ContactArea = () => {
                 data-src="assets/img/map_img.png"
               >
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9970.374387888158!2d90.39446322694887!3d23.86906897616955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c42340d91bbf%3A0xbefd5558412ab68c!2sSector%2007%2C%20Dhaka%201230!5e1!3m2!1sen!2sbd!4v1731692933657!5m2!1sen!2sbd"
                   allowFullScreen={true}
                 ></iframe>
               </div>
@@ -146,7 +146,9 @@ const ContactArea = () => {
                     </a>
                     <div className="cs_icon_text">
                       <h6 className="cs_icon_title">Address</h6>
-                      <p className="cs_icon_subtitle">El-Mahalla El-Kubra 37</p>
+                      <p className="cs_icon_subtitle">
+                        4th floor, house 79, Road 7, sector 4, Uttara.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -178,7 +180,7 @@ const ContactArea = () => {
                     </a>
                     <div className="cs_icon_text">
                       <h6 className="cs_icon_title">Phone</h6>
-                      <p className="cs_icon_subtitle">(406) 555-0120</p>
+                      <p className="cs_icon_subtitle">+8801624452103</p>
                     </div>
                   </div>
                 </div>
@@ -209,7 +211,7 @@ const ContactArea = () => {
                     </a>
                     <div className="cs_icon_text">
                       <h6 className="cs_icon_title">Email</h6>
-                      <p className="cs_icon_subtitle">Wisemind@email.com</p>
+                      <p className="cs_icon_subtitle">info@wisemindit.com</p>
                     </div>
                   </div>
                 </div>
