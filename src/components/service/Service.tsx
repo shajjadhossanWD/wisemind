@@ -9,22 +9,22 @@ const service_data: DataType[] = [
   {
     id: "one",
     title: "Understand",
-    description: `Welcome to wisemind. We specialize in helping your business most`,
+    description: `Analyze requirements and goals to ensure a clear project vision.`,
   },
   {
     id: "Two",
     title: "Design",
-    description: `Welcome to wisemind. We specialize in helping your business most`,
+    description: `Create user-friendly, visually appealing designs aligned with project objectives.`,
   },
   {
     id: "Three",
     title: "Development",
-    description: `Welcome to wisemind. We specialize in helping your business most`,
+    description: `Build robust, scalable solutions using the latest technologies and frameworks.`,
   },
   {
     id: "Four",
     title: "Testing",
-    description: `Welcome to wisemind. We specialize in helping your business most`,
+    description: `Conduct rigorous testing to ensure quality, performance, and reliability.`,
   },
 ];
 const Service = () => {

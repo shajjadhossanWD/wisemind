@@ -11,23 +11,23 @@ interface DataType {
 const service_data: DataType[] = [
   {
     id: 1,
-    title: `Application Development`,
-    des: `Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`,
+    title: `AI/ML Solution`,
+    des: `Wisemind’s AI/ML services empower businesses with cutting-edge solutions, leveraging machine learning and AI to optimize processes, enhance insights, and drive intelligent decision-making for businesses.`,
   },
   {
     id: 2,
-    title: `Web Development`,
-    des: `Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`,
+    title: `Software Development`,
+    des: `Wisemind’s Software Development services offer custom solutions, building scalable, reliable applications with cutting-edge technologies to drive innovation and meet business needs effectively.`,
   },
   {
     id: 3,
-    title: `Digital Services`,
-    des: `Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`,
+    title: `Mobile Application Development`,
+    des: `Wisemind’s Mobile Application Development services create seamless cross-platform apps, delivering high-performance, user-friendly solutions for both iOS and Android using the latest technologies.`,
   },
   {
     id: 4,
-    title: `Digital Product Design`,
-    des: `Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`,
+    title: `Graphics & UI/UX Design`,
+    des: `Wisemind’s Graphics & UI/UX Design services craft visually appealing, user-centric designs, enhancing user experience and engagement with intuitive interfaces and creative, impactful visuals.`,
   },
 ];
 

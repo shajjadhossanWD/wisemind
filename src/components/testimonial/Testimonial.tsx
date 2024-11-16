@@ -3,7 +3,16 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
-import avatar_img from "@/assets/img/avatar_1.jpg";
+import avatar_img1 from "@/assets/img/clients/sara.jpeg";
+import avatar_img2 from "@/assets/img/clients/ankit.jpeg";
+import avatar_img3 from "@/assets/img/clients/María.jpeg";
+import avatar_img4 from "@/assets/img/clients/Connor.jpeg";
+import avatar_img5 from "@/assets/img/clients/Liu.jpeg";
+import avatar_img6 from "@/assets/img/clients/Fatima.png";
+import avatar_img7 from "@/assets/img/clients/Giulia.jpeg";
+import avatar_img8 from "@/assets/img/clients/Oliver.jpeg";
+import avatar_img9 from "@/assets/img/clients/Klara.jpeg";
+import avatar_img10 from "@/assets/img/clients/Hans.jpeg";
 import testimonial_thumb from "@/assets/img/testimonial_thumb_1.jpg";
 import Image, { StaticImageData } from "next/image";
 
@@ -16,22 +25,64 @@ interface DataType {
 [];
 const testimonial_data: DataType[] = [
   {
-    img: avatar_img,
-    name: `Delores Olivo`,
-    location: `From UK`,
-    des: `“Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    img: avatar_img1,
+    name: `Sarah Johnson`,
+    location: `From US`,
+    des: `“Wisemind’s AI-driven solution optimized our operations and provided deep insights. Their dedication to innovation is truly commendable.”`,
   },
   {
-    img: avatar_img,
-    name: `Delores Olivo`,
-    location: `From USA`,
-    des: `“Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    img: avatar_img2,
+    name: `Ankit Sharma`,
+    location: `From India`,
+    des: `“Their expertise in software development transformed our workflow. Wisemind delivered a scalable product that exceeded all expectations!”`,
   },
   {
-    img: avatar_img,
-    name: `Delores Olivo`,
-    location: `From Astrolia`,
-    des: `“Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    img: avatar_img3,
+    name: `María López`,
+    location: `From Spain`,
+    des: `“El diseño de UI/UX de Wisemind fue intuitivo y atractivo. A nuestros usuarios les encanta la nueva interfaz, y ha mejorado nuestras tasas de retención.”`,
+  },
+  {
+    img: avatar_img4,
+    name: `Connor Walsh`,
+    location: `From Ireland`,
+    des: `“Wisemind developed a cutting-edge machine learning model for us. Their technical skills and understanding of our business needs were impressive.”`,
+  },
+  {
+    img: avatar_img5,
+    name: `Liu Zhang`,
+    location: `From China`,
+    des: `“他们的AI驱动推荐系统彻底改变了我们与客户互动的方式。Wisemind的方法既具有战略性，又高效。”`,
+  },
+  {
+    img: avatar_img6,
+    name: `Fatima Al-Mansoori`,
+    location: `From UAE`,
+    des: `“The custom software Wisemind built for us is fast and reliable. Their focus on efficient, user-friendly design was exactly what we needed.”`,
+  },
+  {
+    img: avatar_img7,
+    name: `Giulia Romano`,
+    location: `From Italy`,
+    des: `“Wisemind’s UI/UX revamp made our app visually stunning and easy to navigate. The team’s creativity and professionalism were outstanding!”`,
+  },
+  {
+    img: avatar_img8,
+    name: `Oliver Evans`,
+    location: `From Australia`,
+    des: `“Their AI/ML solutions automated our data analysis processes. Wisemind’s insights have significantly improved our decision-making capabilities.”`,
+  },
+  {
+    img: avatar_img9,
+    name: `Klara Horvat`,
+    location: `From Croatia`,
+    des: `“Wisemind’s software development team built us a robust, scalable platform. Their attention to detail and seamless delivery were impressive.”`,
+  },
+  {
+    img: avatar_img10,
+    name: `Hans Fischer`,
+    location: `From Germany`,
+    des: `“Die neu gestaltete UI/UX-Erfahrung von Wisemind war ein Wendepunkt. Sie verstehen es wirklich, die Benutzerzufriedenheit durch Design zu verbessern.”`,
   },
 ];
 

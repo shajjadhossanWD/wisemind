@@ -9,13 +9,22 @@ interface DataType {
   subtitle: string;
   title: string;
   des: string;
+  des2: string;
 }
 const about_content: DataType = {
   subtitle: `Our Company Story`,
-  title: `How Our Company is Pushing the Boundaries of Online Marketing and Design`,
-  des: `Wisemind! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital to drive growth and reach your goals.`,
+  title: `Our Company Mission And Vision`,
+  des: `Wisemind is dedicated to creating digital experiences
+ that simplify and enhance the lives of our clients. We
+ aim to deliver innovative, scalable, and efficient IT
+ solutions through the passion and talent of our
+ dedicated team.`,
+  des2: `Aim To be a global leader in IT and software
+ outsourcing, known for delivering solutions that drive
+ business success and improve user experiences
+ worldwide.`,
 };
-const { subtitle, title, des } = about_content;
+const { subtitle, title, des, des2 } = about_content;
 
 const About = () => {
   return (
@@ -51,7 +60,7 @@ const About = () => {
                 <div className="col-md-6 col-sm-12">
                   <div className="anim_div_ShowRightSide">
                     <p className="cs_ternary_color">{des}</p>
-                    <p className="cs_ternary_color">{des}</p>
+                    <p className="cs_ternary_color">{des2}</p>
                   </div>
                 </div>
               </div>
