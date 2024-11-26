@@ -1,53 +1,56 @@
-'use client'
-import React from 'react';
-import Link from 'next/link';
-import Image, { StaticImageData } from 'next/image';
+"use client";
+import React from "react";
+import Link from "next/link";
+import Image, { StaticImageData } from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import portfolio_img_1 from '@/assets/img/portfolio_1.jpg';
-import portfolio_img_2 from '@/assets/img/portfolio_2.jpg';
-import portfolio_img_3 from '@/assets/img/portfolio_3.jpg';
+import portfolio_img_1 from "@/assets/img/portfolio/p-ai-1.png";
+import portfolio_img_2 from "@/assets/img/portfolio/p-ai-2.png";
+import portfolio_img_3 from "@/assets/img/portfolio/p-ai-3.png";
+import portfolio_img_4 from "@/assets/img/portfolio/p-ai-4.png";
+import portfolio_img_5 from "@/assets/img/portfolio/p-ai-5.png";
+import portfolio_img_6 from "@/assets/img/portfolio/p-cw.png";
 
 interface DataType {
   img: StaticImageData;
   title: string;
   category: string;
-}[]
+}
+[];
 
 const portfolio_slider: DataType[] = [
   {
     img: portfolio_img_1,
-    title: `Project Task Management`,
-    category: `Digital Services / App Design`,
+    title: `Custom Knowledge Chatbot LLM`,
+    category: `AI Development / LLM`,
   },
   {
     img: portfolio_img_2,
-    title: `Project Task Management`,
-    category: `Digital Services / Web Design`,
+    title: `AI Traffic Detection`,
+    category: `AI Development / AI Detection`,
   },
   {
     img: portfolio_img_3,
-    title: `Project Task Management`,
-    category: `Digital Services / Figma Design`,
+    title: `Plant Detection`,
+    category: `AI Development / AI Detection`,
   },
   {
-    img: portfolio_img_1,
-    title: `Project Task Management`,
-    category: `Digital Services / App Design`,
+    img: portfolio_img_4,
+    title: `AI Telemedicine Dashboard`,
+    category: `AI & Software Development / Dashboard`,
   },
   {
-    img: portfolio_img_2,
-    title: `Project Task Management`,
-    category: `Digital Services / Web Design`,
+    img: portfolio_img_5,
+    title: `AI SAAS Dashboard`,
+    category: `AI & Software Development / SAAS`,
   },
   {
-    img: portfolio_img_3,
-    title: `Project Task Management`,
-    category: `Digital Services / Figma Design`,
+    img: portfolio_img_6,
+    title: `Construction Website`,
+    category: `Software Development / Construction`,
   },
-]
-
+];
 
 const PortfolioHomeOne = () => {
   return (
@@ -70,33 +73,37 @@ const PortfolioHomeOne = () => {
         <Swiper
           loop={true}
           speed={1000}
-          slidesPerView="auto" 
+          slidesPerView="auto"
           pagination={{
             el: ".cs_pagination",
             clickable: true,
           }}
-          className="cs_horizontal_scrolls anim_div_ShowDowns">
-          {portfolio_slider.map((item, i) =>
+          className="cs_horizontal_scrolls anim_div_ShowDowns"
+        >
+          {portfolio_slider.map((item, i) => (
             <SwiperSlide key={i} className="swiper-slide">
               <div className="cs_horizontal_scroll">
-                <Link href="/portfolio-details" className="cs_portfolio cs_style_1">
+                <div
+                  // href="/portfolio-details"
+                  className="cs_portfolio cs_style_1"
+                >
                   <div className="cs_portfolio_img">
                     <Image src={item.img} alt="Thumb" />
                   </div>
                   <div className="cs_portfolio_overlay"></div>
                   <div className="cs_portfolio_info">
-                    <h2 className="cs_portfolio_title">
+                    <h2
+                      className="cs_portfolio_title"
+                      style={{ color: "#007aff", fontSize: "20px" }}
+                    >
                       {item.title}
                     </h2>
-                    <div className="cs_portfolio_subtitle">
-                      {item.category}
-                    </div>
+                    <div className="cs_portfolio_subtitle">{item.category}</div>
                   </div>
-                </Link>
+                </div>
               </div>
             </SwiperSlide>
-          )} 
-
+          ))}
         </Swiper>
       </div>
       <div className="cs_height_145 cs_height_lg_60"></div>

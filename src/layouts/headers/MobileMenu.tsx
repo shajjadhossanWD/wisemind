@@ -111,24 +111,24 @@ const menu_data: DataType[] = [
       },
     ],
   },
-  // {
-  //   id: 5,
-  //   title: "Portfolio",
-  //   link: "/portfolio",
-  //   has_dropdown: true,
-  //   sub_menu: [
-  //     {
-  //       id: 1,
-  //       title: "Portfolio",
-  //       link: "/portfolio",
-  //     },
-  //     {
-  //       id: 2,
-  //       title: "Portfolio Details",
-  //       link: "/portfolio-details",
-  //     },
-  //   ],
-  // },
+  {
+    id: 5,
+    title: "Portfolio",
+    link: "/portfolio",
+    has_dropdown: false,
+    sub_menu: [
+      {
+        id: 1,
+        title: "Portfolio",
+        link: "/portfolio",
+      },
+      {
+        id: 2,
+        title: "Portfolio Details",
+        link: "/portfolio-details",
+      },
+    ],
+  },
   // {
   //   id: 6,
   //   title: "Blog",
