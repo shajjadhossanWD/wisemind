@@ -180,7 +180,11 @@ const ContactArea = () => {
                     </a>
                     <div className="cs_icon_text">
                       <h6 className="cs_icon_title">Phone</h6>
-                      <p className="cs_icon_subtitle">+8801624452103</p>
+                      <p className="cs_icon_subtitle">+8801622-990505</p>
+                    </div>
+                    <div className="cs_icon_text">
+                      <h6 className="cs_icon_title">Phone</h6>
+                      <p className="cs_icon_subtitle">+8801829-883311</p>
                     </div>
                   </div>
                 </div>

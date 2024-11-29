@@ -364,7 +364,8 @@ const HeaderOne = () => {
                           fill="white"
                         ></path>
                       </svg>
-                      <span className="ms-2">+8801624452103</span>
+                      <span className="ms-2">+8801622-990505</span>
+                      <span className="ms-2">+8801829-883311</span>
                     </a>
                   </h4>
 
