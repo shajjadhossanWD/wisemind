@@ -225,6 +225,7 @@ const HeaderOne = () => {
         className={`cs_site_header cs_style1 cs_sticky_header cs_site_header_full_width ${
           sticky ? "cs_gescout_sticky" : ""
         }`}
+        style={{ color: "#fff" }}
       >
         <div className="cs_main_header">
           <div className="container">

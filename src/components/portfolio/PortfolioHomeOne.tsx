@@ -25,11 +25,11 @@ const portfolio_slider: DataType[] = [
     title: `Custom Knowledge Chatbot LLM`,
     category: `AI Development / LLM`,
   },
-  {
-    img: portfolio_img_2,
-    title: `AI Traffic Detection`,
-    category: `AI Development / AI Detection`,
-  },
+  // {
+  //   img: portfolio_img_2,
+  //   title: `AI Traffic Detection`,
+  //   category: `AI Development / AI Detection`,
+  // },
   {
     img: portfolio_img_3,
     title: `Plant Detection`,

@@ -33,13 +33,13 @@ const portfolio_data: DataType[] = [
     title: `Custom Knowledge Chatbot LLM`,
     des: "AI Development / AI Detection",
   },
-  {
-    id: 2,
-    category: "AI/ML",
-    img: portfolio_img_2,
-    title: `AI Traffic Detection`,
-    des: "AI Development / AI Detection",
-  },
+  // {
+  //   id: 2,
+  //   category: "AI/ML",
+  //   img: portfolio_img_2,
+  //   title: `AI Traffic Detection`,
+  //   des: "AI Development / AI Detection",
+  // },
   {
     id: 3,
     category: "AI/ML",
