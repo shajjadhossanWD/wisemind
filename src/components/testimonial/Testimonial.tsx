@@ -13,7 +13,7 @@ import avatar_img7 from "@/assets/img/clients/Giulia.jpeg";
 import avatar_img8 from "@/assets/img/clients/Oliver.jpeg";
 import avatar_img9 from "@/assets/img/clients/Klara.jpeg";
 import avatar_img10 from "@/assets/img/clients/Hans.jpeg";
-import testimonial_thumb from "@/assets/img/testimonial_thumb_1.jpg";
+import testimonial_thumb from "@/assets/img/client.jpg";
 import Image, { StaticImageData } from "next/image";
 
 interface DataType {
