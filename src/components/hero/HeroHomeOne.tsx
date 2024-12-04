@@ -45,7 +45,7 @@ const HeroHomeOne = () => {
           {hero_slider.map((item, index) => (
             <SwiperSlide key={index} className="swiper-slide">
               <div
-                className="cs_hero cs_style1 cs_center cs_parallax"
+                className="cs_hero cs_style1 cs_center cs_parallax cs_bg"
                 // style={{ backgroundColor: "#181818", color: "#fff" }}
                 style={{
                   backgroundImage: "url(/assets/img/bg-img.jpg)",

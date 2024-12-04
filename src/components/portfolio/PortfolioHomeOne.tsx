@@ -11,6 +11,10 @@ import portfolio_img_3 from "@/assets/img/portfolio/p-ai-3.png";
 import portfolio_img_4 from "@/assets/img/portfolio/p-ai-4.png";
 import portfolio_img_5 from "@/assets/img/portfolio/p-ai-5.png";
 import portfolio_img_6 from "@/assets/img/portfolio/p-cw.png";
+import portfolio_img_7 from "@/assets/img/portfolio/p-cw-2.png";
+import portfolio_img_8 from "@/assets/img/portfolio/p-ec-1.png";
+import portfolio_img_9 from "@/assets/img/portfolio/p-hotel.png";
+import portfolio_img_10 from "@/assets/img/portfolio/p-tw.png";
 
 interface DataType {
   img: StaticImageData;
@@ -35,20 +39,26 @@ const portfolio_slider: DataType[] = [
     title: `Plant Detection`,
     category: `AI Development / AI Detection`,
   },
-  {
-    img: portfolio_img_4,
-    title: `AI Telemedicine Dashboard`,
-    category: `AI & Software Development / Dashboard`,
-  },
+
   {
     img: portfolio_img_5,
     title: `AI SAAS Dashboard`,
     category: `AI & Software Development / SAAS`,
   },
   {
-    img: portfolio_img_6,
-    title: `Construction Website`,
-    category: `Software Development / Construction`,
+    img: portfolio_img_4,
+    title: `AI Telemedicine Dashboard`,
+    category: `AI & Software Development / Dashboard`,
+  },
+  // {
+  //   img: portfolio_img_6,
+  //   title: `Construction Website`,
+  //   category: `Software Development / Construction`,
+  // },
+  {
+    category: "Software Development",
+    img: portfolio_img_7,
+    title: "Construction Website",
   },
 ];
 
