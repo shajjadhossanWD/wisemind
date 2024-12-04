@@ -16,18 +16,18 @@ const about_slider: DataType[] = [
     img: "/assets/img/about1.jpg",
     sub_title: "Our Mission",
     title: `Empowering Businesses with Innovation and Creativity`,
-    des: `At Wisemind, our mission is to help businesses unlock their full potential through innovative digital solutions. From software development and AI integration to UI/UX design, 2D/3D animation, and video editing, we bring your vision to life. Let us be your partner in navigating the evolving digital landscape.`,
+    des: `At Wisemind, our mission is to help businesses unlock their full potential through innovative digital solutions. From software development and AI integration to UI/UX design, 2D/3D animation, and video editing, we bring your vision to life.`,
   },
   {
     img: "/assets/img/about2.jpg",
     sub_title: "Our Vision",
-    title: `Shaping the Future of Digital Transformation`,
+    title: `Shaping the Future of Digital Transformation: Envisioning a Brighter Tomorrow`,
     des: `We envision a future where businesses thrive by embracing technology and creativity. With expertise in cloud solutions, cybersecurity, software development, and creative services like animation and graphic design, we aim to redefine how businesses connect with their audiences.`,
   },
   {
     img: "/assets/img/about3.jpg",
     sub_title: "Why Choose Us",
-    title: `Your Trusted Partner for Comprehensive Solutions`,
+    title: `Your Trusted Partner for Comprehensive, Scalable, and Tailored  Solutions`,
     des: `At Wisemind, we offer a unique blend of technical expertise and creative brilliance. From building secure, scalable software to crafting stunning designs and immersive animations, we provide end-to-end solutions tailored to your needs. Let us help you excel in the digital era.`,
   },
 ];

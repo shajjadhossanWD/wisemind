@@ -5,7 +5,7 @@ import hero_img from "@/assets/img/creative_banner_img.jpg";
 const hero_data = {
   title_1: "Creative",
   title_2: "Portfolio",
-  des: `Welcome to wisemind.! We specialize in helping businesses like yours succeed online. From website design and developmen.`,
+  des: `Welcome to wisemind.! We specialize in helping businesses like yours succeed online. From website design and development.`,
 };
 const { title_1, title_2, des } = hero_data;
 

@@ -34,7 +34,7 @@ const hero_slider: DataType[] = [
 const HeroHomeOne = () => {
   return (
     <>
-      <div className="dark">
+      <section className="dark">
         <Swiper
           loop={true}
           slidesPerView={1}
@@ -46,15 +46,17 @@ const HeroHomeOne = () => {
             <SwiperSlide key={index} className="swiper-slide">
               <div
                 className="cs_hero cs_style1 cs_center cs_parallax"
-                style={{ backgroundColor: "#181818", color: "#fff" }}
+                // style={{ backgroundColor: "#181818", color: "#fff" }}
+                style={{
+                  backgroundImage: "url(/assets/img/bg-img.jpg)",
+                }}
               >
-                <div
-                  className="cs_hero_bg cs_bg cs_parallax_bg"
-                  style={{ backgroundImage: `url(${item.img})` }}
-                ></div>
                 <div className="container">
                   <div className="cs_hero_text">
-                    <div className="cs_hero_mini_title">
+                    <div
+                      className="cs_hero_mini_title"
+                      style={{ color: "#fff" }}
+                    >
                       <svg
                         width="134"
                         height="12"
@@ -64,7 +66,7 @@ const HeroHomeOne = () => {
                       >
                         <path
                           d="M133.53 6.53033C133.823 6.23744 133.823 5.76256 133.53 5.46967L128.757 0.696699C128.464 0.403806 127.99 0.403806 127.697 0.696699C127.404 0.989593 127.404 1.46447 127.697 1.75736L131.939 6L127.697 10.2426C127.404 10.5355 127.404 11.0104 127.697 11.3033C127.99 11.5962 128.464 11.5962 128.757 11.3033L133.53 6.53033ZM0 6.75H133V5.25H0V6.75Z"
-                          fill="#101010"
+                          fill="#fff"
                         />
                       </svg>
                       {item.sub_title}
@@ -72,20 +74,28 @@ const HeroHomeOne = () => {
                     <div className="cs_height_20 cs_height_lg_20"></div>
                     <h1 className="cs_hero_title">{item.title}</h1>
                     <div className="cs_height_70 cs_height_lg_60"></div>
-                    <div className="cs_hero_text_in">
-                      <div className="cs_hero_subtitle">{item.des}</div>
-                      <div className="cs_height_65 cs_height_lg_40"></div>
-                      <div className="cs_hero_btn_wrap">
+                    <div className="cs_hero_text_in d-flex">
+                      <div
+                        className="cs_hero_btn_wrap"
+                        style={{ marginRight: "100px" }}
+                      >
                         <div className="cs_round_btn_wrap">
                           <Link
-                            href="/portfolio"
+                            href="/contact"
                             className="cs_hero_btn cs_round_btn btn-item"
                           >
                             <span></span>
-                            Our Projects
+                            Get Quotation
                           </Link>
                         </div>
                       </div>
+                      <div
+                        className="cs_hero_subtitle"
+                        style={{ color: "#fff" }}
+                      >
+                        {item.des}
+                      </div>
+                      {/* <div className="cs_height_65 cs_height_lg_40"></div> */}
                     </div>
                   </div>
                 </div>
@@ -94,7 +104,7 @@ const HeroHomeOne = () => {
           ))}
           <div className="cs_pagination cs_style1"></div>
         </Swiper>
-      </div>
+      </section>
     </>
   );
 };
