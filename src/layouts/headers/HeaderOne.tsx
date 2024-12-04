@@ -380,7 +380,7 @@ const HeaderOne = () => {
                     <li>
                       <a
                         target="_blank"
-                        href="http://www.linkedin.com/in/wise-mind-7535b3338"
+                        href="https://www.linkedin.com/company/wisemindit/"
                       >
                         Linkedin
                       </a>

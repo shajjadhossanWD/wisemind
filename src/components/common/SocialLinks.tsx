@@ -14,7 +14,7 @@ const hero_link_home_three: HDataType[] = [
   },
   {
     id: 2,
-    link: "http://www.linkedin.com/in/wise-mind-7535b3338",
+    link: "https://www.linkedin.com/company/wisemindit/",
     title: "Linkedin",
   },
   {
