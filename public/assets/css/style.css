@@ -3610,6 +3610,10 @@ label {
 }
 
 @media screen and (min-width: 1200px) {
+  .hero-flex {
+    display: flex;
+    align-items: center;
+  }
   .cs_nav_list.cs_color_1 {
     color: #fff;
   }

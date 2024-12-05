@@ -16,19 +16,19 @@ const about_slider: DataType[] = [
     img: "/assets/img/about1.jpg",
     sub_title: "Our Mission",
     title: `Empowering Businesses with Innovation and Creativity`,
-    des: `At Wisemind, our mission is to help businesses unlock their full potential through innovative digital solutions. From software development and AI integration to UI/UX design, 2D/3D animation, and video editing, we bring your vision to life.`,
+    des: `At WiseMind, we combine innovation with creativity to help businesses unlock their potential. By delivering tailored technology solutions, we enable businesses to thrive and stay competitive in a rapidly changing digital world.`,
   },
   {
     img: "/assets/img/about2.jpg",
     sub_title: "Our Vision",
     title: `Shaping the Future of Digital Transformation: Envisioning a Brighter Tomorrow`,
-    des: `We envision a future where businesses thrive by embracing technology and creativity. With expertise in cloud solutions, cybersecurity, software development, and creative services like animation and graphic design, we aim to redefine how businesses connect with their audiences.`,
+    des: `We lead businesses through digital transformation, providing scalable solutions that not only meet today’s needs but also prepare them for the future. Our strategies empower companies to embrace change & drive sustainable growth.`,
   },
   {
     img: "/assets/img/about3.jpg",
     sub_title: "Why Choose Us",
     title: `Your Trusted Partner for Comprehensive, Scalable, and Tailored  Solutions`,
-    des: `At Wisemind, we offer a unique blend of technical expertise and creative brilliance. From building secure, scalable software to crafting stunning designs and immersive animations, we provide end-to-end solutions tailored to your needs. Let us help you excel in the digital era.`,
+    des: `WiseMind offers scalable, customized solutions that evolve with your business. As a trusted partner, we ensure our services grow with you, delivering long-term value through innovative software development, design, and AI-driven solution.`,
   },
 ];
 

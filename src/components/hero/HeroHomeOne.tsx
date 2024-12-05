@@ -14,20 +14,20 @@ const hero_slider: DataType[] = [
   {
     img: `/assets/img/hero_img_1.jpg`,
     sub_title: "Software Development & Solutions Company",
-    title: "Expert Digital & Creative Services for Your Business",
-    des: `Welcome to our versatile solutions company! We specialize in empowering businesses to thrive in the digital age. From cutting-edge software development and cloud solutions to captivating 2D/3D animations, UI/UX design, video editing, and graphics, we offer a wide range of services tailored to your unique needs. Let us help you innovate, design, and excel in today’s ever-evolving digital landscape.`,
+    title: "Expert Digital & Development Solutions for Your Business",
+    des: `Welcome to WiseMind, where AI-driven innovation meets advanced IT solutions. Our expertise includes AI development, software development, UI/UX design, and 2D/3D animation, delivering innovative and impactful outcomes that drive growth and efficiency. At WiseMind, we don’t just solve problems, we turn possibilities into reality, with Wise Thinking and Smart Solutions.`,
   },
   {
     img: `/assets/img/hero_img_1.jpg`,
     sub_title: "Software Development & Solutions Company",
-    title: "Expert Digital & Creative Services for Your Business",
-    des: `Welcome to our versatile solutions company! We specialize in empowering businesses to thrive in the digital age. From cutting-edge software development and cloud solutions to captivating 2D/3D animations, UI/UX design, video editing, and graphics, we offer a wide range of services tailored to your unique needs. Let us help you innovate, design, and excel in today’s ever-evolving digital landscape.`,
+    title: "Expert Digital & Development Solutions for Your Business",
+    des: `Welcome to WiseMind, where AI-driven innovation meets advanced IT solutions. Our expertise includes AI development, software development, UI/UX design, and 2D/3D animation, delivering innovative and impactful outcomes that drive growth and efficiency. At WiseMind, we don’t just solve problems, we turn possibilities into reality, with Wise Thinking and Smart Solutions.`,
   },
   {
     img: `/assets/img/hero_img_1.jpg`,
     sub_title: "Software Development & Solutions Company",
-    title: "Expert Digital & Creative Services for Your Business",
-    des: `Welcome to our versatile solutions company! We specialize in empowering businesses to thrive in the digital age. From cutting-edge software development and cloud solutions to captivating 2D/3D animations, UI/UX design, video editing, and graphics, we offer a wide range of services tailored to your unique needs. Let us help you innovate, design, and excel in today’s ever-evolving digital landscape.`,
+    title: "Expert Digital & Development Solutions for Your Business",
+    des: `Welcome to WiseMind, where AI-driven innovation meets advanced IT solutions. Our expertise includes AI development, software development, UI/UX design, and 2D/3D animation, delivering innovative and impactful outcomes that drive growth and efficiency. At WiseMind, we don’t just solve problems, we turn possibilities into reality, with Wise Thinking and Smart Solutions.`,
   },
 ];
 
@@ -74,11 +74,15 @@ const HeroHomeOne = () => {
                     <div className="cs_height_20 cs_height_lg_20"></div>
                     <h1 className="cs_hero_title">{item.title}</h1>
                     <div className="cs_height_70 cs_height_lg_60"></div>
-                    <div className="cs_hero_text_in d-flex">
+                    <div className="cs_hero_text_in hero-flex">
                       <div
-                        className="cs_hero_btn_wrap"
-                        style={{ marginRight: "100px" }}
+                        className="cs_hero_subtitle"
+                        style={{ color: "#fff" }}
                       >
+                        {item.des}
+                      </div>
+                      <div className="cs_height_65 cs_height_lg_40"></div>
+                      <div className="cs_hero_btn_wrap margin-right">
                         <div className="cs_round_btn_wrap">
                           <Link
                             href="/contact"
@@ -89,13 +93,6 @@ const HeroHomeOne = () => {
                           </Link>
                         </div>
                       </div>
-                      <div
-                        className="cs_hero_subtitle"
-                        style={{ color: "#fff" }}
-                      >
-                        {item.des}
-                      </div>
-                      {/* <div className="cs_height_65 cs_height_lg_40"></div> */}
                     </div>
                   </div>
                 </div>

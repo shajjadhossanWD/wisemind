@@ -23,9 +23,17 @@
   }
   @media only screen and (min-width: 991px) {
     .cs_hero_title {
-      font-size: 100px;
+      font-size: 80px;
       font-weight: 900;
       margin-bottom: 0;
+    }
+    .hero-flex {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+    .margin-right {
+      margin-right: 60px;
     }
   }
   .cs_hero_text_in {

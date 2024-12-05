@@ -14,15 +14,8 @@ interface DataType {
 const about_content: DataType = {
   subtitle: `Our Company Story`,
   title: `Our Company Mission And Vision`,
-  des: `Wisemind is dedicated to creating digital experiences
- that simplify and enhance the lives of our clients. We
- aim to deliver innovative, scalable, and efficient IT
- solutions through the passion and talent of our
- dedicated team.`,
-  des2: `Aim To be a global leader in IT and software
- outsourcing, known for delivering solutions that drive
- business success and improve user experiences
- worldwide.`,
+  des: `At WiseMind, we are dedicated to crafting digital experiences that simplify and elevate the lives of our clients. Our mission is to deliver innovative, scalable, and efficient IT solutions powered by the passion and talent of our dedicated team.`,
+  des2: `We aim to be a global leader in IT and software outsourcing, renowned for delivering solutions that drive business success and enhance user experiences worldwide.`,
 };
 const { subtitle, title, des, des2 } = about_content;
 

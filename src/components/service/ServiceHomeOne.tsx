@@ -11,23 +11,33 @@ interface DataType {
 const service_data: DataType[] = [
   {
     id: 1,
-    title: `AI/ML Solution`,
-    des: `Wisemind’s AI/ML services empower businesses with cutting-edge solutions, leveraging machine learning and AI to optimize processes, enhance insights, and drive intelligent decision-making for businesses.`,
+    title: `AI/ML Solutions`,
+    des: `Unlock the potential of Artificial Intelligence and Machine Learning to drive innovation and optimize business processes. We deliver tailored AI/ML solutions that enhance decision-making, improve operational efficiency, and foster growth.`,
   },
   {
     id: 2,
-    title: `Software Development`,
-    des: `Wisemind’s Software Development services offer custom solutions, building scalable, reliable applications with cutting-edge technologies to drive innovation and meet business needs effectively.`,
+    title: `Web Development`,
+    des: `We specialize in creating high-performing, responsive websites that provide a seamless user experience across all devices. Our web development services focus on functionality, speed, and scalability to meet your business goals.`,
   },
   {
     id: 3,
     title: `Mobile Application Development`,
-    des: `Wisemind’s Mobile Application Development services create seamless cross-platform apps, delivering high-performance, user-friendly solutions for both iOS and Android using the latest technologies.`,
+    des: `We design and develop custom mobile applications for both Android and iOS, ensuring robust performance, security, and an intuitive user experience. Our apps are built to drive engagement and meet the evolving needs of your business.`,
   },
   {
     id: 4,
-    title: `Graphics & UI/UX Design`,
-    des: `Wisemind’s Graphics & UI/UX Design services craft visually appealing, user-centric designs, enhancing user experience and engagement with intuitive interfaces and creative, impactful visuals.`,
+    title: `UI/UX Design`,
+    des: `Our UI/UX design services focus on delivering user-centric designs that are both visually appealing and highly functional. We aim to optimize user experiences, improve usability, and ensure that your digital products are intuitive and easy to navigate.`,
+  },
+  {
+    id: 5,
+    title: `Brand Design`,
+    des: `We create compelling brand identities that resonate with your target audience. Our brand design services include logo creation, typography, color schemes, and messaging, all designed to build a strong, cohesive brand presence in the market.`,
+  },
+  {
+    id: 6,
+    title: `Brand Design`,
+    des: `We produce high-quality 2D and 3D animations that effectively communicate your brand story. From explainer videos to promotional content, our animations capture attention and engage your audience, enhancing your digital presence.`,
   },
 ];
 
@@ -41,10 +51,10 @@ const ServiceHomeOne = () => {
           <div className="cs_section_heading cs_style_1 cs_type_1 cs_color_1">
             <div className="cs_section_heading_text">
               <div className="cs_section_subtitle anim_div_ShowZoom">
-                Our Services
+                Our Core Services
               </div>
               <h2 className="cs_section_title anim_heading_title">
-                Comprehensive Digital Strategy Transformation
+                Comprehensive IT Solutions for Business Growth
               </h2>
             </div>
             <div className="cs_section_heading_right cs_btn_anim">
@@ -91,7 +101,7 @@ const ServiceHomeOne = () => {
                   </div>
                 </div>
                 <div className="cs_card_link_wrap">
-                  <Link href="/service-details" className="cs_card_link">
+                  <Link href="/service" className="cs_card_link">
                     <span>
                       <svg
                         width="30"

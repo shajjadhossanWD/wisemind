@@ -220,12 +220,12 @@ const HeaderOne = () => {
   }, [lastScrollTop]);
 
   return (
-    <>
+    <section className="dark">
       <header
-        className={`cs_site_header cs_style1 cs_sticky_header cs_site_header_full_width ${
+        className={`dark cs_site_header cs_style1 cs_sticky_header cs_site_header_full_width ${
           sticky ? "cs_gescout_sticky" : ""
         }`}
-        style={{ color: "#fff" }}
+        style={{ color: "#fff", backgroundColor: "#000" }}
       >
         <div className="cs_main_header">
           <div className="container">
@@ -413,7 +413,7 @@ const HeaderOne = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

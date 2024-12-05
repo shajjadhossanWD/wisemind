@@ -19,7 +19,7 @@ const footer_data: DataType = {
   email: `info@wisemindit.com`,
   phone: `+8801624452103`,
   location: `4th floor, house 79, Road 7, sector 4, Uttara.`,
-  footer_info: `Welcome to wisemind. We specialize in helping business most like yours succeed online. From website design and development.`,
+  footer_info: `Welcome to WiseMind. We specialize in helping businesses like yours succeed online, offering expert website design and development services.`,
   links: [
     { title: `HOME`, link: "/" },
     { title: `ABOUT`, link: "/about" },

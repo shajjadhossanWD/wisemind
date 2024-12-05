@@ -28,8 +28,8 @@ const Gellary = ({ style_2 }: any) => {
                 Gallery
               </div>
               <h2 className="cs_section_title anim_heading_title">
-                Inspiring Creativity A Gallery of Work from Our Creative
-                Wisemind
+                Inspiring Creativity: A Gallery of Work from Our Creative Team
+                at WiseMind
               </h2>
             </div>
           </div>

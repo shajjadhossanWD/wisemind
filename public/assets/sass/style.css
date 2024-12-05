@@ -4316,6 +4316,7 @@ label {
     margin-bottom: 0;
   }
 }
+
 .cs_hero.cs_style1 .cs_hero_text_in {
   padding-left: 52%;
 }
@@ -4762,6 +4763,7 @@ label {
   .cs_hero.cs_style1 .cs_hero_text_in {
     padding-left: 0%;
   }
+  
   .cs_hero.cs_style1 .cs_hero_bg {
     opacity: 0.2;
     width: 100%;

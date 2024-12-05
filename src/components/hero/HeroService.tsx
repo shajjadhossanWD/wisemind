@@ -10,35 +10,53 @@ interface DataType {
 const banner_data: DataType[] = [
   {
     id: 1,
-    title: `AI/ML Solution`,
-    description: `Wisemind’s AI/ML services empower businesses with cutting-edge solutions, leveraging machine learning and AI to optimize processes, enhance insights, and drive intelligent decision-making for businesses.`,
+    title: `AI/ML Solutions`,
+    description: `Unlock the potential of Artificial Intelligence and Machine Learning to drive innovation and optimize business processes. We deliver tailored AI/ML solutions that enhance decision-making, improve operational efficiency, and foster growth.`,
   },
   {
     id: 2,
-    title: `Software Development`,
-    description: `Wisemind’s Software Development services offer custom solutions, building scalable, reliable applications with cutting-edge technologies to drive innovation and meet business needs effectively.`,
+    title: `Web Development`,
+    description: `We specialize in creating high-performing, responsive websites that provide a seamless user experience across all devices. Our web development services focus on functionality, speed, and scalability to meet your business goals.`,
   },
   {
     id: 3,
     title: `Mobile Application Development`,
-    description: `Wisemind’s Mobile Application Development services create seamless cross-platform apps, delivering high-performance, user-friendly solutions for both iOS and Android using the latest technologies.`,
+    description: `We design and develop custom mobile applications for both Android and iOS, ensuring robust performance, security, and an intuitive user experience. Our apps are built to drive engagement and meet the evolving needs of your business.`,
   },
   {
     id: 4,
-    title: `Graphics & UI/UX Design`,
-    description: `Wisemind’s Graphics & UI/UX Design services craft visually appealing, user-centric designs, enhancing user experience and engagement with intuitive interfaces and creative, impactful visuals.`,
+    title: `UI/UX Design`,
+    description: `Our UI/UX design services focus on delivering user-centric designs that are both visually appealing and highly functional. We aim to optimize user experiences, improve usability, and ensure that your digital products are intuitive and easy to navigate.`,
   },
   {
     id: 5,
-    title: "Video Editing & Annimation",
-    description:
-      "Wisemind’s Video Editing & Animation services bring ideas to life with stunning visuals, seamless edits, and captivating animations, enhancing storytelling and engagement for businesses.",
+    title: `Brand Design`,
+    description: `We create compelling brand identities that resonate with your target audience. Our brand design services include logo creation, typography, color schemes, and messaging, all designed to build a strong, cohesive brand presence in the market.`,
   },
   {
     id: 6,
-    title: "Digital Marketing",
-    description:
-      "Wisemind’s Digital Marketing services drive brand growth through targeted strategies, leveraging SEO, social media, PPC, and content marketing to boost online presence and engagement.",
+    title: `Brand Design`,
+    description: `We produce high-quality 2D and 3D animations that effectively communicate your brand story. From explainer videos to promotional content, our animations capture attention and engage your audience, enhancing your digital presence.`,
+  },
+  {
+    id: 7,
+    title: `E-commerce Solutions`,
+    description: `Our e-commerce solutions are designed to provide secure, user-friendly platforms that enhance the online shopping experience. We build scalable, custom e-commerce sites that drive sales, streamline transactions, and improve customer satisfaction.`,
+  },
+  {
+    id: 8,
+    title: `ERP Solutions`,
+    description: `We implement integrated Enterprise Resource Planning (ERP) systems to streamline your business operations. Our ERP solutions enable you to efficiently manage resources, improve data accessibility, and make informed decisions across departments.`,
+  },
+  {
+    id: 9,
+    title: `DevOps`,
+    description: `We help bridge the gap between development and operations, implementing DevOps practices to automate processes and improve collaboration. Our solutions enable faster software delivery, enhanced system reliability, and continuous integration.`,
+  },
+  {
+    id: 10,
+    title: `Digital Marketing`,
+    description: `Our digital marketing services are designed to increase your online visibility and drive business growth. We provide comprehensive strategies, including SEO, SEM, social media marketing, and email campaigns, to effectively engage your target audience and generate leads.`,
   },
 ];
 
@@ -51,7 +69,7 @@ const HeroService = () => {
           <div className="cs_section_heading cs_style_1">
             <div className="cs_section_heading_text">
               <h2 className="cs_section_title anim_word_writting">
-                Transform Your Online Presence with Our Wisemind Services
+                Transform Your Business with WiseMind’s IT Solutions
               </h2>
             </div>
           </div>
@@ -77,7 +95,7 @@ const HeroService = () => {
                     <div className="cs_card_subtitle">{item.description}</div>
                   </div>
                 </div>
-                <div className="cs_card_link_wrap">
+                {/* <div className="cs_card_link_wrap">
                   <Link href="/service-details" className="cs_card_link">
                     <span>
                       <svg
@@ -124,7 +142,7 @@ const HeroService = () => {
                       </svg>
                     </span>
                   </Link>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>
