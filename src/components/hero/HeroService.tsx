@@ -35,7 +35,7 @@ const banner_data: DataType[] = [
   },
   {
     id: 6,
-    title: `Brand Design`,
+    title: `2D/3D Animation`,
     description: `We produce high-quality 2D and 3D animations that effectively communicate your brand story. From explainer videos to promotional content, our animations capture attention and engage your audience, enhancing your digital presence.`,
   },
   {
