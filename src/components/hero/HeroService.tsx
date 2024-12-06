@@ -84,7 +84,7 @@ const HeroService = () => {
                       backgroundImage: `url('/assets/img/hero_img_1.jpg')`,
                     }}
                   >
-                    0{i + 1}
+                    {i < 9 ? `0${i + 1}` : i + 1}
                   </div>
                 </div>
                 <div className="cs_card_right">

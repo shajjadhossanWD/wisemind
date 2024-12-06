@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 
 import Image from "next/image";
 import logo from "@/assets/logos/logo_b.png";
-import Logo_white from "@/assets/logos/logo_w.png";
+import Logo_white from "@/assets/logos/logo-w.png";
 
 interface DataType {
   id: number;
@@ -220,22 +220,22 @@ const HeaderOne = () => {
   }, [lastScrollTop]);
 
   return (
-    <section className="dark">
+    <section>
       <header
         className={`dark cs_site_header cs_style1 cs_sticky_header cs_site_header_full_width ${
           sticky ? "cs_gescout_sticky" : ""
         }`}
-        style={{ color: "#fff", backgroundColor: "#000" }}
+        style={{ color: "#fff", backgroundColor: "#101010" }}
       >
         <div className="cs_main_header">
           <div className="container">
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
                 <Link className="cs_site_branding logo-dark" href="/">
-                  <Image src={Logo_white} alt="Logo" />
+                  <Image src={Logo_white} width={150} height={80} alt="Logo" />
                 </Link>
                 <Link className="cs_site_branding logo-white" href="/">
-                  <Image src={Logo_white} alt="Logo" />
+                  <Image width={150} height={80} src={Logo_white} alt="Logo" />
                 </Link>
               </div>
               <div className="cs_main_header_right">

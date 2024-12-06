@@ -49,7 +49,7 @@ const SubscribeHomeOne = () => {
               </g>
             </svg>
           </div>
-          <div className="cs_section_heading cs_style_1 cs_color_1 text-center">
+          {/* <div className="cs_section_heading cs_style_1 cs_color_1 text-center">
             <div className="cs_section_heading_text">
               <h2 className="cs_section_title anim_text_upanddowns">
                 Let's Talk <br />
@@ -78,7 +78,20 @@ const SubscribeHomeOne = () => {
                 />
               </svg>
             </button>
-          </form>
+          </form> */}
+          <section className="let-talk">
+            <button className="glow-on-hover">Let's Talk</button>
+            <p className="let-talk__text">
+              Looking for Assistance with Your Project?
+            </p>
+            <p className="let-talk__description">
+              Our knowledgeable staff at Wisemind is committed to providing
+              custom solutions that address your unique requirements. We
+              guarantee the highest level of quality and efficiency in the
+              completion of projects. Together, we can help you accomplish your
+              goals and grow your company.
+            </p>
+          </section>
         </div>
       </div>
     </>
