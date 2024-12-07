@@ -181,7 +181,7 @@ const Testimonial = ({ style_service }: any) => {
             <div className="col-lg-7 offset-lg-1">
               <div
                 className={`cs_testimonial ${
-                  style_service ? "cs_style_2" : "cs_style_1 cs_color_1"
+                  style_service ? "cs_style_1" : "cs_style_1 cs_color_1"
                 }`}
               >
                 <h2 className="cs_testimonial_title">
@@ -224,7 +224,12 @@ const Testimonial = ({ style_service }: any) => {
                         </blockquote>
                         <div className="cs_testimonial_meta">
                           <div className="cs_testimonial_avatar">
-                            <Image src={item.img} alt="Avatar" />
+                            <Image
+                              src={item.img}
+                              width={80}
+                              height={80}
+                              alt="Avatar"
+                            />
                           </div>
                           <div className="cs_testimonial_meta_right">
                             <h3 className="cs_testimonial_avatar_name">

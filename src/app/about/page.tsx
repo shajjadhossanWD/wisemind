@@ -14,6 +14,7 @@ import Wrapper from "@/layouts/Wrapper";
 import FooterOne from "@/layouts/footers/FooterOne";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import VideoPopup from "@/components/modals/VideoPopup";
+import SubscribeHomeOne from "@/components/subscribe/SubscribeHomeOne";
 
 // export const metadata = {
 //   title: "About Wisemind - Digital  Creative Wisemind Next js Template",
@@ -36,6 +37,7 @@ const index = () => {
             {/* <AwardsHomeOne style_2={true} />  */}
             <Testimonial />
             <Gellary style_2={true} />
+            <SubscribeHomeOne />
             <BrandHomeOne />
           </main>
           <FooterOne />

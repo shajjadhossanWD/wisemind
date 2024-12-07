@@ -58,7 +58,7 @@ const BrandHomeOne = ({ style_2 }: any) => {
           <div className="cs_height_100 cs_height_lg_60"></div>
         </>
       ) : (
-        <div className="cs_height_140 cs_height_lg_70"></div>
+        <div className="cs_height_150 cs_height_lg_60"></div>
       )}
       <div className="cs_moving_section_wrap cs_bold cs_moving_section_hover_push">
         <div className="cs_moving_section_in">

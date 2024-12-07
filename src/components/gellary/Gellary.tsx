@@ -1,9 +1,11 @@
 "use client";
 
 import React from "react";
-import gellary_img_1 from "@/assets/img/about_gallery_1.jpg";
-import gellary_img_2 from "@/assets/img/about_gallery_2.jpg";
-import gellary_img_3 from "@/assets/img/about_gallery_3.jpg";
+import gellary_img_1 from "@/assets/img/gallary-1.jpg";
+import gellary_img_2 from "@/assets/img/gallary-2.jpg";
+import gellary_img_3 from "@/assets/img/gallary-3.jpg";
+import gellary_img_4 from "@/assets/img/gallary-4.jpg";
+import gellary_img_5 from "@/assets/img/gallary-5.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 
@@ -11,8 +13,8 @@ const gellary_data = [
   gellary_img_1,
   gellary_img_2,
   gellary_img_3,
-  gellary_img_1,
-  gellary_img_2,
+  gellary_img_4,
+  gellary_img_5,
   gellary_img_3,
 ];
 
@@ -50,6 +52,8 @@ const Gellary = ({ style_2 }: any) => {
           ))}
         </Swiper>
       </section>
+
+      {style_2 ? <div className="cs_height_150 cs_height_lg_60"></div> : null}
     </>
   );
 };

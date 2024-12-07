@@ -1,8 +1,8 @@
 import React from "react";
-import agency_story_1 from "@/assets/img/agency_story_1.jpg";
-import agency_story_2 from "@/assets/img/agency_story_2.jpg";
-import agency_story_4 from "@/assets/img/agency_story_4.jpg";
-import agency_story_3 from "@/assets/img/agency_story_3.jpg";
+import agency_story_1 from "@/assets/img/1.png";
+import agency_story_2 from "@/assets/img/2.png";
+import agency_story_4 from "@/assets/img/4.png";
+import agency_story_3 from "@/assets/img/3.png";
 import Image from "next/image";
 
 interface DataType {
