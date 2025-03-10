@@ -134,24 +134,24 @@ const menu_data: DataType[] = [
       },
     ],
   },
-  // {
-  //   id: 6,
-  //   title: "Blog",
-  //   link: "/blog",
-  //   has_dropdown: true,
-  //   sub_menu: [
-  //     {
-  //       id: 1,
-  //       title: "Blog",
-  //       link: "/blog",
-  //     },
-  //     {
-  //       id: 2,
-  //       title: "Blog Details",
-  //       link: "/blog-details",
-  //     },
-  //   ],
-  // },
+  {
+    id: 6,
+    title: "Blog",
+    link: "/blog",
+    has_dropdown: false,
+    // sub_menu: [
+    //   {
+    //     id: 1,
+    //     title: "Blog",
+    //     link: "/blog",
+    //   },
+    //   {
+    //     id: 2,
+    //     title: "Blog Details",
+    //     link: "/blog-details",
+    //   },
+    // ],
+  },
   {
     id: 7,
     title: "Contact",
@@ -337,8 +337,8 @@ const HeaderOne = () => {
                       ></path>
                     </svg>
                     <span className="ms-2">
-                      4th floor, house 79, Road 7, sector 4 <br />
-                      &nbsp; &nbsp; &nbsp; Uttara
+                      Sector-15, Block-B, Road-4A, House-28 <br />
+                      &nbsp; &nbsp; &nbsp; Dhaka, Uttara
                     </span>
                   </p>
 
@@ -387,7 +387,7 @@ const HeaderOne = () => {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" href="https://www.instagram.com/">
+                      <a target="_blank" href="https://www.instagram.com/wisemind_it">
                         Instagram
                       </a>
                     </li>

@@ -19,12 +19,12 @@ const hero_link_home_three: HDataType[] = [
   },
   {
     id: 3,
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/wisemind_it",
     title: "Instagram",
   },
   {
     id: 4,
-    link: "https://www.twitter.com",
+    link: "https://x.com/Wisemindit",
     title: "Twitter",
   },
   {

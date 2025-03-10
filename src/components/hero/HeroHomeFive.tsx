@@ -38,7 +38,7 @@ const hero_data: DataType = {
     {
       id: 3,
       img: twitter,
-      link: "http://www.twitter.com",
+      link: "https://x.com/Wisemindit",
     },
   ],
 };

@@ -2,7 +2,7 @@ import dayjs from "dayjs";
 import { MetadataRoute } from "next";
 import { site } from "../../site";
 
-const staticPaths = ["/", "/about", "/service", "/portfolio", "/contact"];
+const staticPaths = ["/", "/about", "/service", "/portfolio", "/blog", "/contact"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

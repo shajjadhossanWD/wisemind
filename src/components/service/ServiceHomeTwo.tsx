@@ -41,6 +41,7 @@ const service_content: DataType = {
   ]
 }
 
+
 const { sub_title, title, service_data } = service_content
 
 const ServiceHomeTwo = () => {

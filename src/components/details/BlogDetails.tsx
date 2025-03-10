@@ -161,27 +161,23 @@ const BlogDetails = () => {
             <div>
               <div className="cs_share_btn_g">
                 <div className="col cs_share_btn cs_center">
-                  <a target="_blank" href="https://twitter.com/">
+                  <a target="_blank" href="https://x.com/Wisemindit">
                     Twitter
                   </a>
                 </div>
                 <div className="col cs_share_btn cs_center">
-                  <a target="_blank" href="https://www.facebook.com/">
+                  <a target="_blank" href="https://www.facebook.com/wisemindit">
                     Facebook
                   </a>
                 </div>
                 <div className="col cs_share_btn cs_center">
-                  <a target="_blank" href="https://www.linkedin.com/">
+                  <a target="_blank" href="https://www.linkedin.com/company/wisemindit/">
                     Linkedin
                   </a>
                 </div>
+                
                 <div className="col cs_share_btn cs_center">
-                  <a target="_blank" href="https://dribbble.com/">
-                    Dribbble
-                  </a>
-                </div>
-                <div className="col cs_share_btn cs_center">
-                  <a target="_blank" href="https://www.instagram.com/">
+                  <a target="_blank" href="https://www.instagram.com/wisemind_it">
                     Instagram
                   </a>
                 </div>

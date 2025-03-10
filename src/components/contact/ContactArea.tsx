@@ -114,10 +114,15 @@ const ContactArea = () => {
                 className="cs_google_map cs_bg"
                 data-src="assets/img/map_img.png"
               >
-                <iframe
+                {/* <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9970.374387888158!2d90.39446322694887!3d23.86906897616955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c42340d91bbf%3A0xbefd5558412ab68c!2sSector%2007%2C%20Dhaka%201230!5e1!3m2!1sen!2sbd!4v1731692933657!5m2!1sen!2sbd"
                   allowFullScreen={true}
-                ></iframe>
+                ></iframe> */}
+
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14595.043779624753!2d90.34858681371395!3d23.86262112445762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c3006fc31533%3A0x2743edf0eb7501f8!2sWisemind%20IT!5e0!3m2!1sen!2sbd!4v1741163694217!5m2!1sen!2sbd" 
+                  allowFullScreen={true}
+                  ></iframe>
               </div>
               <div className="cs_height_50 cs_height_lg_50"></div>
               <div className="row">
@@ -147,7 +152,7 @@ const ContactArea = () => {
                     <div className="cs_icon_text">
                       <h6 className="cs_icon_title">Address</h6>
                       <p className="cs_icon_subtitle">
-                        4th floor, house 79, Road 7, sector 4, Uttara.
+                        Dhaka, Uttara, Sector-15, Block-B, Road-4A, House-28
                       </p>
                     </div>
                   </div>
