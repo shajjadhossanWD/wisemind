@@ -1,8 +1,7 @@
- 
- 'use client';
+"use client";
 
-import { useEffect } from "react";  
-import { gsap } from 'gsap';
+import { useEffect } from "react";
+import { gsap } from "gsap";
 
 import animationTitle from "@/utils/animationTitle";
 import DarkLight from "@/components/common/DarkLight";
@@ -12,13 +11,10 @@ import ScrollToTop from "@/components/common/ScrollToTop";
 import { scrollSmother } from "@/utils/scrollSmother";
 import { buttonAnimation } from "@/utils/buttonAnimation";
 
-
-import { ScrollSmoother, } from "@/plugins";
+import { ScrollSmoother } from "@/plugins";
 gsap.registerPlugin(ScrollSmoother);
 
-
-const Wrapper = ({ children }: any) => {  
-
+const Wrapper = ({ children }: any) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       ScrollSmoother.create({
@@ -32,22 +28,19 @@ const Wrapper = ({ children }: any) => {
   }, []);
 
   useEffect(() => {
-
     // buttonAnimation()
     // animationTitle()
     scrollSmother();
-  }, [])
+  }, []);
 
-
-
-  return <>
-    <MouseMove />
-    {children}
-    <ScrollToTop />
-    <DarkLight />
-
-  </>;
+  return (
+    <>
+      <MouseMove />
+      {children}
+      <ScrollToTop />
+      {/* <DarkLight /> */}
+    </>
+  );
 };
 
 export default Wrapper;
-
